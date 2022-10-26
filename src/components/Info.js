@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../profile-cropped.JPG"
+import img from "../profile-cropped.JPG";
 
 function Info() {
     return (
@@ -18,7 +18,7 @@ function Info() {
                 </button>
             </div>
         </div>
-    )
+    );
 }
 
 export default Info;

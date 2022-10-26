@@ -60,3 +60,25 @@
     background-color: #297FE5;
     border-style: none;
 }
+
+.section {
+    width: auto;
+    height: 201px;
+    margin: 25px 35px auto;
+    text-overflow: ellipsis;
+}
+
+.section h3 {
+    height: 21px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    color: #2B283A;
+}
+
+.section p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #4A4E74;
+}
