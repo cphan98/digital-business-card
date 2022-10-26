@@ -1,18 +1,11 @@
-import React from 'react'
+import React from 'react';
 import './App.css';
-import Info from './components/Info.js'
-import About from './components/About'
-import Interests from './components/Interests'
-import Footer from './components/Footer'
-
+import Info from './components/Info';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Info />
-      <About />
-      <Interests />
-      <Footer />
     </div>
   );
 }
