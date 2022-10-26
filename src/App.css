@@ -50,8 +50,11 @@
     gap: 8px;
 }
 
+.info--buttons a:link {
+    text-decoration: none;
+}
+
 .info--email {
-    color: #374151;
     background-color: #FFFFFF;
     border-color: #D1D5DB;
     border-style: solid;
