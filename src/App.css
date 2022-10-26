@@ -65,7 +65,7 @@
 
 .section {
     width: auto;
-    margin: 25px 35px 100%;
+    margin: 25px 35px auto;
     text-overflow: ellipsis;
 }
 
@@ -91,4 +91,15 @@
 
 .interests ul {
     padding-inline-start: 15px;
+}
+
+.footer {
+    padding: 20px 73px;
+    width: 100%;
+    height: 64px;
+    position: fixed;
+    bottom: 0px;
+    background-color: #D5D4D8;
+    display: flex;
+    justify-content: space-between;
 }
