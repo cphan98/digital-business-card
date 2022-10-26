@@ -1,0 +1,62 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+.info--name {
+    margin-top: 20px;
+    width: 178px;
+    height: 26px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #2B283A;
+}
+
+.info--student {
+    margin-top: 10px;
+    width: 178px;
+    height: 14px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #F47D27;
+}
+
+.info--buttons {
+    margin-top: 17px;
+    width: 247px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info--buttons button {
+    width: 115px;
+    height: 34px;
+    border-radius: 6px;
+    border-width: 1px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+}
+
+.info--email {
+    color: #374151;
+    background-color: #FFFFFF;
+    border-color: #D1D5DB;
+    border-style: solid;
+}
+
+.info--linkedin {
+    color: #FFFFFF;
+    background-color: #297FE5;
+    border-style: none;
+}
