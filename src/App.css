@@ -6,32 +6,34 @@
 }
 
 .info--name {
-    margin-top: 20px;
-    width: 178px;
-    height: 26px;
+    margin: 20px 70px 0px;
+    width: auto;
     font-weight: 700;
     font-size: 25px;
     line-height: 30px;
     text-align: center;
+    text-overflow: ellipsis;
     color: #2B283A;
 }
 
 .info--description {
-    margin-top: 10px;
-    width: 178px;
-    height: 39px;
+    margin: 10px 70px 0px;
+    width: auto;
     font-weight: 400;
     font-size: 13px;
     line-height: 15px;
     text-align: center;
+    text-overflow: ellipsis;
     color: #F47D27;
 }
 
 .info--buttons {
     margin-top: 17px;
-    width: 247px;
-    display: flex;
-    justify-content: space-between;
+    width: auto;
+    display: inline-flex;
+    justify-content: center;
+    gap: 17px;
+    flex-wrap: wrap;
 }
 
 .info--buttons button {
@@ -63,8 +65,7 @@
 
 .section {
     width: auto;
-    height: 201px;
-    margin: 25px 35px auto;
+    margin: 25px 35px 100%;
     text-overflow: ellipsis;
 }
 
@@ -76,9 +77,18 @@
     color: #2B283A;
 }
 
-.section p {
+.section p, .section ul {
+    margin-top: 5px;
     font-weight: 400;
     font-size: 10px;
     line-height: 15px;
     color: #4A4E74;
+}
+
+.interests {
+    margin-top: 27px;
+}
+
+.interests ul {
+    padding-inline-start: 15px;
 }
