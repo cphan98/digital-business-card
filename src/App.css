@@ -68,7 +68,7 @@
 
 .section {
     width: auto;
-    margin: 25px 35px auto;
+    margin: 25px 35px 40px;
     text-overflow: ellipsis;
 }
 
@@ -100,7 +100,7 @@
     padding: 20px 73px;
     width: 100%;
     height: 64px;
-    position: fixed;
+    position: relative;
     bottom: 0px;
     background-color: #D5D4D8;
     display: flex;
